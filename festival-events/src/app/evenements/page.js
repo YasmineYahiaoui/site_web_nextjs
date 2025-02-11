@@ -20,7 +20,7 @@ export default function Evenements() {
           ))}
         </div>
       </main>
-      <Footer />
+      
     </>
   );
 }
