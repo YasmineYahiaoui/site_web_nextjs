@@ -1,7 +1,14 @@
+import Navbar from "../components/navbar/Navbar";
+import "../app/globals.css";
+
 export default function Home() {
   return (
-    <div className="text-center text-3xl font-bold">
-      Bienvenue sur mon site d'événements !
-    </div>
+    <>
+      <Navbar />
+      <main className="home">
+        <h1>Bienvenue à EventArtist</h1>
+        <p>Découvrez les meilleurs événements artistiques près de chez vous.</p>
+      </main>
+    </>
   );
 }

@@ -12,8 +12,14 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: black;
 }
 
+.home {
+  text-align: center;
+  padding: 100px 20px;
+}
