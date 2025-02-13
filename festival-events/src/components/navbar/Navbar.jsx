@@ -5,7 +5,6 @@ import { useState } from "react";
 import "../navbar/Navbar.css";
 
 
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 

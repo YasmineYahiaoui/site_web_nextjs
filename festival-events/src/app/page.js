@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar/Navbar";
 import FeaturedEvents from "../components/featuredevents/FeaturedEvents";
+
 import "../app/globals.css";
 
 export default function Home() {
