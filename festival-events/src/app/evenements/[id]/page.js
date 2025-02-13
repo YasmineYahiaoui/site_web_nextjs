@@ -41,7 +41,7 @@ const events = [
     date: "20 mai 2025",
     location: "Marseille",
     description: "Un débat autour du cinéma indépendant avec des réalisateurs invités.",
-    image: "/images/films.jpg",
+    image: "/images/PF.jpg",
     content: `Le cinéma indépendant occupe une place de choix dans l’industrie du film. 
     Ce débat rassemblera des réalisateurs et producteurs indépendants qui partageront leurs expériences, défis et inspirations. 
     Des projections exclusives auront lieu suivies de discussions interactives avec le public. Une immersion fascinante dans le monde du septième art !`
