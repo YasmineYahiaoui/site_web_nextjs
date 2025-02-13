@@ -4,5 +4,6 @@
     text-align: center; /* Centrer le texte */
     padding: 16px; /* Padding équivalent à p-4 */
     font-size: 14px;
+    width: 100%;
   }
   

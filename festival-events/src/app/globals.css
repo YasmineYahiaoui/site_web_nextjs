@@ -23,3 +23,12 @@ body {
   text-align: center;
   padding: 100px 20px;
 }
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+}
+

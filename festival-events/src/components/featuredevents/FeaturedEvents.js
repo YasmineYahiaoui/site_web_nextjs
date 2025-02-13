@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import "../../components/featuredevents/FeaturedEvents.css";
 
@@ -39,7 +41,10 @@ export default function FeaturedEvents() {
           </div>
           <div className="event-footer">
             <p className="event-date">{event.date}</p>
-            <Link href={event.link} className="event-link">➜ Lire l'article</Link>
+            <Link href={`/evenements/${event.id}`} className="event-link">
+              ➜ Lire l'article
+            </Link>
+
           </div>
         </div>
       ))}
