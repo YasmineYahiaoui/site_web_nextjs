@@ -29,7 +29,7 @@ const events = [
     date: "15 avril 2025",
     location: "Lyon",
     description: "Une pièce de théâtre interactive en plein air avec improvisation.",
-    image: "/images/theatre.jpg",
+    image: "/images/SEPA.jpg",
     content: `Ce spectacle interactif en plein air vous plonge dans un univers où le public joue un rôle clé dans l’histoire. 
     Avec une troupe d'improvisation talentueuse, vous pourrez influencer le scénario et participer à des scènes hilarantes. 
     Que vous soyez spectateur ou acteur, préparez-vous à une soirée inoubliable sous les étoiles !`
