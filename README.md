@@ -21,12 +21,15 @@ Que ce soit des **ateliers d’art, des spectacles de théâtre, des concerts ac
 
 
 **Installer les dépendances**  
+
 -npm install
 
 **Accéder au dossier du projet**
+
 -cd festival-events
 
 **Lancer le serveur de développement**
+
 -npm run dev
 
 
