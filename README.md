@@ -16,3 +16,22 @@ Que ce soit des **ateliers d’art, des spectacles de théâtre, des concerts ac
 - **React.js** (Composants dynamiques)
 - **Tailwind CSS** (Stylisation moderne et responsive)
 - **Heroicons / Lucide React** (Icônes interactifs)
+  
+- ##  Installation et Lancement
+
+
+**Installer les dépendances**  
+-npm install
+
+**Accéder au dossier du projet**
+-cd festival-events
+
+**Lancer le serveur de développement**
+-npm run dev
+
+
+
+
+Le site sera disponible à : http://localhost:3000 🌍
+
+
