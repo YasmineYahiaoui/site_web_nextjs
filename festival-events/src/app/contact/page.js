@@ -1,6 +1,6 @@
-"use client"; // Ajoute cette ligne en haut du fichier
+"use client"; 
 
-import { useState } from "react"; // Ensuite importe useState
+import { useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import "../contact/contact.css";
 

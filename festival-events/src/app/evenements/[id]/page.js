@@ -70,7 +70,7 @@ export default function EventDetails() {
           <h1>{event.title}</h1>
           <p className="event-category">{event.category}</p>
          
-          {/* ✅ Corrige l'affichage des images */}
+          {/* Corrige l'affichage des images */}
           {event.image ? (
           <Image 
             src={event.image} 
