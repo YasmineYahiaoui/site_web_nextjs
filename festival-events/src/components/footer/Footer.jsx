@@ -1,3 +1,4 @@
+//yasmine lynda rayane mellissa hamza redouane
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import "./Footer.css"; // Import du CSS personnalisé
 

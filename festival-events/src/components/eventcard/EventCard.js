@@ -1,3 +1,4 @@
+//yasmine lynda rayane mellissa hamza redouane
 import Link from "next/link";
 import "../../components/eventcard/EventCard.css";
 

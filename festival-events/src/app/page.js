@@ -1,3 +1,4 @@
+//yasmine lynda rayane mellissa hamza redouane
 import Navbar from "../components/navbar/Navbar";
 import FeaturedEvents from "../components/featuredevents/FeaturedEvents";
 
