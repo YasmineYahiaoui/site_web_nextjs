@@ -1,0 +1,24 @@
+.event-list {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.dark .event-list {
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .event-container {
+    grid-template-columns: 1fr;
+  }
+} 

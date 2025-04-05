@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles de base */
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+/*  Vidéo de fond */
+.video-background {
+  position: absolute;
+  top: 8;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  z-index: -1;
+  padding-top: 55px; /* ESPACE sous la NAVBAR */
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 🔥 Overlay pour améliorer la lisibilité du texte */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Assombrit légèrement la vidéo */
+}
+
+/* 🏠 Section Hero */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(234, 232, 232);
+  z-index: 10;
+  margin-bottom: 0px; /*  Ajoute de l'espace sous la section Hero */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* 🎟️ Bouton CTA (Call-To-Action) */
+.cta-button {
+  padding: 12px 24px;
+  background-color: #952859; /* Violet pour respecter le design */
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #bc599b;
+}
+
+/*  Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  padding: 15px 20px;
+  z-index: 1000;
+}
+
+/* Correction des sections */
+.hero,
+.featured-events,
+.footer {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* 🎨 Footer */
+.footer {
+  background: #12122b; /* Couleur plus foncée */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.dark .footer {
+  background: #0a0a1a; /* Version plus sombre pour le thème dark */
+}
+
+.featured-events {
+  margin-bottom: 140px; /* Ajoute un espace sous les événements */
+}
+
+/* Styles spécifiques au thème sombre */
+.dark .event-list {
+  @apply bg-gray-900 text-white;
+}
+
+.dark .event-card {
+  @apply border-gray-700 bg-gray-800 text-white;
+}
+
+.dark .cta-button {
+  background-color: #aa4278; /* Version plus visible pour le thème dark */
+}
+
+.dark .cta-button:hover {
+  background-color: #d46ba7;
+}
